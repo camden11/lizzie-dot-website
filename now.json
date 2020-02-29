@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "lizzie-website",
+  "builds": [{ "src": "next.config.js", "use": "@now/next@2.3.8" }],
+  "env": {
+    "PRISMIC_URL": "@prismic-url-lf",
+    "PRISMIC_CLIENT_ID": "@prismic-client-id-lf",
+    "PRISMIC_CLIENT_SECRET": "@prismic-client-secret-lf",
+    "PRISMIC_ACCESS_TOKEN": "@prismic-access-token-lf"
+  },
+  "build": {
+    "env": {
+      "PRISMIC_URL": "@prismic-url-lf",
+      "PRISMIC_CLIENT_ID": "@prismic-client-id-lf",
+      "PRISMIC_CLIENT_SECRET": "@prismic-client-secret-lf",
+      "PRISMIC_ACCESS_TOKEN": "@prismic-access-token-lf"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "lizzie-dot-website",
+  "version": "1.0.0",
+  "description": "Website for Lizzie Fulham",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": "12.14.0"
+  },
+  "author": "Camden Phalen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.15",
+    "next": "^9.2.2",
+    "next-images": "^1.3.1",
+    "now": "^17.0.4",
+    "prismic-javascript": "^2.1.5",
+    "prismic-reactjs": "^1.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
