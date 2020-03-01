@@ -5,7 +5,6 @@ import { get } from "lodash";
 import PrismicClient from "../transport/prismic";
 
 const Home = ({ data }) => {
-  console.log(data);
   return (
     <>
       <Head>
@@ -140,6 +139,7 @@ const Home = ({ data }) => {
           max-width: 1100px;
           margin: 0 auto;
           padding: 20px 40px;
+          padding-right: 60px;
         }
 
         .content-section {
